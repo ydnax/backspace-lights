@@ -1,0 +1,24 @@
+{
+    "name": "bckspc-ledexamples",
+    "version": "0.0.1",
+    "author": "xandy <xandy@hackerspace-bamberg.de>",
+    "description": "funny lights ;)",
+    "contributors": [
+        {
+            "name": "xandy",
+            "email": "xandy@hackerspace-bamberg.de"
+        }
+    ],
+    "repository": {
+    },
+    "keywords": [
+        "light"
+    ],
+    "dependencies" : {
+        "node-artnet-dmxctrl": "https://github.com/ydnax/node-dmxlights/tarball/master",
+        "js-transition" : "https://github.com/ydnax/js-transition/tarball/master"
+    },
+    "engine": {
+        "node": ">=0.6"
+    }
+}
