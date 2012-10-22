@@ -1,0 +1,22 @@
+{
+    "devices":{
+        "led1":{
+            "channel": 200,
+            "mode"   : -1,
+            "red"    : 0,
+            "green"  : 0,
+            "blue"   : 0,
+        }
+    },
+    "animation" : [
+        {"led1":[100,0,  0],   "_time":1000 },
+        {"led1":[100,0,  100], "_time":1000 },
+        {"led1":[100,100,0],   "_time":1000 }
+    ],
+    "options":{
+        "repeat": true,
+        "pause" : 0,
+        "repeat_reverse" : false,
+        "host" : "lighting.bckspc.de"
+    }
+}
